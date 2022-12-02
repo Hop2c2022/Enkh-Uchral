@@ -168,100 +168,105 @@ export const Header = () => {
           </Button>
         </div>
       </div>
-      <div className="api">
-        {movie?.data?.results?.map((el) => {
-          return (
-            <img
-              src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
-              style={{
-                width: "430px",
-                borderRadius: "8px",
-                marginRight: "30px",
-              }}
-              className="netflixcard"
-            />
-          );
-        })}
-      </div>
-      <div className="api">
-        {tv?.data?.results?.map((el) => {
-          return (
-            <img
-              src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
-              style={{
-                width: "430px",
-                borderRadius: "8px",
-                marginRight: "30px",
-              }}
-              className="netflixcard"
-            />
-          );
-        })}
-      </div>
-      <div className="api">
-        {movie2?.data?.results?.map((el) => {
-          return (
-            <img
-              src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
-              style={{
-                width: "430px",
-                borderRadius: "8px",
-                marginRight: "30px",
-              }}
-              className="netflixcard"
-            />
-          );
-        })}
-      </div>
+      <div className="aaa">
+        <div className="ttl">Trending Now</div>
+        <div className="api">
+          {movie?.data?.results?.map((el) => {
+            return (
+              <img
+                src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
+                style={{
+                  width: "430px",
+                  borderRadius: "8px",
+                  marginRight: "30px",
+                }}
+                className="netflixcard"
+              />
+            );
+          })}
+        </div>
 
-      <div className="api">
-        {movie3?.data?.results?.map((el) => {
-          return (
-            <img
-              src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
-              style={{
-                width: "430px",
-                borderRadius: "8px",
-                marginRight: "30px",
-              }}
-              className="netflixcard"
-            />
-          );
-        })}
+        <div className="ttl">Only on Netflix</div>
+        <div className="api">
+          {tv?.data?.results?.map((el) => {
+            return (
+              <img
+                src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
+                style={{
+                  width: "430px",
+                  borderRadius: "8px",
+                  marginRight: "30px",
+                }}
+                className="netflixcard"
+              />
+            );
+          })}
+        </div>
+        <div className="ttl">Videos & TV Shows</div>
+        <div className="api">
+          {movie2?.data?.results?.map((el) => {
+            return (
+              <img
+                src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
+                style={{
+                  width: "430px",
+                  borderRadius: "8px",
+                  marginRight: "30px",
+                }}
+                className="netflixcard"
+              />
+            );
+          })}
+        </div>
+        <div className="ttl">Top Searches</div>
+        <div className="api">
+          {movie3?.data?.results?.map((el) => {
+            return (
+              <img
+                src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
+                style={{
+                  width: "430px",
+                  borderRadius: "8px",
+                  marginRight: "30px",
+                }}
+                className="netflixcard"
+              />
+            );
+          })}
+        </div>
+        <div className="ttl">TV Thriller</div>
+        <div className="api">
+          {movie4?.data?.results?.map((el) => {
+            return (
+              <img
+                src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
+                style={{
+                  width: "430px",
+                  borderRadius: "8px",
+                  marginRight: "30px",
+                }}
+                className="netflixcard"
+              />
+            );
+          })}
+        </div>
+        <div className="ttl">Romantic Movies</div>
+        <div className="api">
+          {movie5?.data?.results?.map((el) => {
+            return (
+              <img
+                src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
+                style={{
+                  width: "430px",
+                  borderRadius: "8px",
+                  marginRight: "30px",
+                }}
+                className="netflixcard"
+              />
+            );
+          })}
+        </div>
       </div>
-
-      <div className="api">
-        {movie4?.data?.results?.map((el) => {
-          return (
-            <img
-              src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
-              style={{
-                width: "430px",
-                borderRadius: "8px",
-                marginRight: "30px",
-              }}
-              className="netflixcard"
-            />
-          );
-        })}
-      </div>
-
-      <div className="api">
-        {movie5?.data?.results?.map((el) => {
-          return (
-            <img
-              src={`https://image.tmdb.org/t/p/w500${el?.backdrop_path}`}
-              style={{
-                width: "430px",
-                borderRadius: "8px",
-                marginRight: "30px",
-              }}
-              className="netflixcard"
-            />
-          );
-        })}
-      </div>
-
       <div className="footer">
         <Footer />
       </div>

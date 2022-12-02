@@ -1,6 +1,10 @@
 import "../App.css";
 import React from "react";
 import { Button } from "react-bootstrap";
+import Fb from "../facebook.png";
+import Ig from "../instagram.png";
+import Tw from "../twitter.png";
+import Yt from "../youtube.png";
 
 export const Footer = () => {
   return (
@@ -9,16 +13,32 @@ export const Footer = () => {
         <div className="container-ftr">
           <div className="social-links">
             <a href="#">
-              <i className="fab fa-facebook-f"></i>
+              <img
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  marginTop: "8px",
+                }}
+                src={Fb}
+              />
             </a>
             <a href="#">
-              <i className="fab fa-twitter"></i>
+              <img
+                style={{ width: "25px", height: "25px", marginTop: "8px" }}
+                src={Ig}
+              />
             </a>
             <a href="#">
-              <i className="fab fa-instagram"></i>
+              <img
+                style={{ width: "25px", height: "25px", marginTop: "8px" }}
+                src={Tw}
+              />
             </a>
             <a href="#">
-              <i className="fab fa-linkedin-in"></i>
+              <img
+                style={{ width: "25px", height: "25px", marginTop: "8px" }}
+                src={Yt}
+              />
             </a>
           </div>
           <div className="roww">

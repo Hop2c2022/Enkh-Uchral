@@ -60,6 +60,12 @@
   border-radius: none;
 }
 
+.ttl {
+  color: #e5e5e5;
+  font-size: 30px;
+  margin: 20px 20px 0px 20px;
+}
+
 .container-ftr {
   max-width: 1200px;
   margin: auto;
@@ -108,7 +114,7 @@ ul {
   display: inline-block;
   height: 40px;
   width: 40px;
-  background-color: gray;
+  background-color: #252b3b;
   margin: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
@@ -119,7 +125,7 @@ ul {
 
 .social-links a:hover {
   color: #24262b;
-  background-color: #ffffff;
+  background-color: gray;
 }
 
 @media (max-width: 1200px) {
