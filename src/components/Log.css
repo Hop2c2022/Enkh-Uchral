@@ -1,0 +1,205 @@
+.header {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 95vw;
+}
+
+.hhh {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 80px;
+  gap: 20px;
+}
+
+.hh {
+  text-decoration: none;
+  color: #02b589;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.log {
+  text-decoration: none;
+}
+
+.holboos {
+  margin-top: 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.imag {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.hihuurhnu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inp {
+  display: flex;
+  justify-content: center;
+  width: 580px;
+  height: 45px;
+  margin-top: 10px;
+  border: 2px solid #b5b3b3;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.intn {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.zurkh {
+  color: red;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.copy {
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 300px;
+}
+
+.ug {
+  display: flex;
+  justify-content: center;
+  color: #02b589;
+  font-size: 32px;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+.input {
+  display: flex;
+  width: 380px;
+  height: 45px;
+  border: 1px solid #a4a1a1;
+  border-radius: 100px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.hha {
+  display: flex;
+  justify-content: center;
+}
+.bataa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.check2 {
+  margin-top: 15px;
+  color: #02b589;
+}
+
+.check {
+  display: flex;
+  gap: 100px;
+}
+
+.href {
+  margin-top: 15px;
+  color: #000000;
+}
+
+.nevtreh {
+  margin-top: 30px;
+}
+
+.nevtreh:hover {
+  color: #013b2c;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #02b589;
+}
+
+.nuuts {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  color: #02b589;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.nuutsug {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  margin-top: 2vh;
+}
+
+.ilgeeh {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .signdiv {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .pwdiv {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .bginodiv {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .logdiv {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .signdiv {
+    width: 100%;
+  }
+  .pwdiv {
+    width: 100%;
+  }
+  .bginodiv {
+    width: 100%;
+  }
+  .logdiv {
+    width: 100%;
+  }
+}
