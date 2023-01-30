@@ -32,6 +32,7 @@ export const HomePage = () => {
             БОГИНОСГОХ
           </button>
         </div>
+        <div className="history">түүх</div>
       </div>
 
       <div className="ftr">

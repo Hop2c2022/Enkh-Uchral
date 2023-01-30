@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 import "../components/Log.css";
+import { Login } from "../Pages/Login";
 
 export const Header = () => {
+  const login = false;
+  const handClose = () => {
+    localStorage.removeItem("token");
+  };
   return (
     <div className="headdiv">
       <div className="hhh">
@@ -23,9 +28,9 @@ export const Header = () => {
               color: "white",
             }}
           >
-            {" "}
-            НЭВТРЭХ
+            {login ? <div> </div> : <div>Nevtreh</div>}
           </button>
+          <button onClick={handClose}>Log out </button>
         </a>
       </div>
     </div>

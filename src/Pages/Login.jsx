@@ -26,10 +26,11 @@ export const Login = () => {
         alert("Invalid password or email");
       } else {
         localStorage.setItem("token", res?.data?.token);
+        localStorage.setItem("name", res?.config?.data);
         window.location.href = "/";
       }
     });
-  
+
     // if (password === result?.data?.config?.data?.password) {
     //   console.log("successfully logged in bro");
     //   navigate("/");
