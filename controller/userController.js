@@ -14,6 +14,10 @@ exports.userGetControllerById = async (req, res) => {
   res.send({ data: result });
 };
 
+exports.urlPostController = async (req, res) => {
+  const { id } = req.params;
+}
+
 exports.userPostController = async (req, res) => {
   try {
     await UserPostQuery(req);

@@ -23,7 +23,7 @@ exports.login = async (req, res) => {
   if (user !== null) {
     const cpm = await bcrypt.compare(password, user.password);
     if (cpm) {
-      const token = await TokenGenerator({ uid: user._id, expires: 1200 });
+      const token = await TokenGenerator({ uid: user._id, expires: 300 });
       res.send({ token: token });
       return;
     } else {
@@ -31,7 +31,5 @@ exports.login = async (req, res) => {
       return;
     }
   }
-
-  console.log("heheheheh");
   if (!user) res.send(" You don't have any user account, please sign up ");
 };
